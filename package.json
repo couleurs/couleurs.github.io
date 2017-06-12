@@ -1,0 +1,20 @@
+{
+  "name": "nightsea",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/couleurs/nightsea",
+  "description": "Application for Night Sea website",
+  "scripts": {
+    "start": "budo index.js --open --live"
+  },
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "budo": "^10.0.3",
+    "gl-buffer": "^2.1.2",
+    "gl-fbo": "^2.0.5",
+    "gl-now": "^1.4.0",
+    "gl-shader": "^4.2.1",
+    "gl-texture2d": "^2.1.0"
+  }
+}
