@@ -4,7 +4,6 @@ var FluidSimulation = require('./fluidwebgl/src/main')
 
 // Canvas
 var canvas = document.createElement('canvas')
-canvas.style = 'position: absolute; width: 30%; height: 50%; top: 25%; left: 35%;'
 document.body.appendChild(canvas)
 
 // GL Context
