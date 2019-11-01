@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Free Serif";
+  src: url("fonts/FreeSerif.eot");
+  src:
+  url("fonts/FreeSerif.woff") format("woff"),
+  url("fonts/FreeSerif.otf") format("opentype"),
+  url("fonts/FreeSerif.svg#filename") format("svg");
+}
+
+@font-face {
+  font-family: "Free Serif Italic";
+  src: url("fonts/FreeSerifItalic.eot");
+  src:
+  url("fonts/FreeSerifItalic.woff") format("woff"),
+  url("fonts/FreeSerifItalic.otf") format("opentype"),
+  url("fonts/FreeSerifItalic.svg#filename") format("svg");
+}
+
+body {
+  margin: 0;
+  font-family: 'Free Serif', Arial, sans-serif;  
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.1rem;
+}
+
+canvas {  
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  z-index: 0;
+  color: white;  
+  position: relative;
+  top: 50%;
+  transform: translateY(-60%);
+}
+
+h1 {
+  font-family: 'Free Serif Italic', Arial, sans-serif;
+  font-size: 100;    
+  letter-spacing: 5px;
+  /* margin-top: 15%;       */
+  margin-bottom: 2rem;      
+}
+
+h3 {
+  font-family: 'Free Serif Italic', Arial, sans-serif;
+  font-size: 1.5rem;
+  /* margin-bottom: 2rem;       */
+  /* text-transform: uppercase; */
+  /* letter-spacing: 20px; */
+}
+
+.col-content {
+  /* padding-top: 10px; */
+  padding-left: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.release {
+  padding-left: 4px;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+#mc_embed_signup form {
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+.footer {
+  margin-top: 2rem;  
+  text-align: center;
+}
+
+.sm-icon {
+  margin-left: 6px;
+  margin-right: 6px;
+  width: 26px;
+  height: 26px;
+  fill: #aaa;
+}
+
+.sm-icon:hover {
+  fill: white;
+}
+
+a.icon {
+  text-decoration: none;
+}
