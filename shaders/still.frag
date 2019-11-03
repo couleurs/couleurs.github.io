@@ -143,7 +143,7 @@ void main() {
     float ratio = ORIGINAL_WIDTH / ORIGINAL_HEIGHT;    
     float n = snoise(vec3(uv, u_time * .2));
     uv.y *= ratio;
-    vec3 c = texture2D(u_tex0, vec2(uv.x, uv.y + .08) + n * .05).rgb;
+    vec3 c = texture2D(u_tex0, vec2(uv.x, uv.y + .08) + n * .01).rgb;
 
     // Rays
     float f_num_rays = 1. / float(NUM_RAYS);
@@ -162,6 +162,7 @@ void main() {
 
     vec2 rot_uv = rotate(uv - .5, .25) + .5;
     uv.y /= ratio;
+    rays = clamp(rays, 0., 1.);
     rays *= smoothstep(0., .2, uv.x) * smoothstep(.1, 1., (1. - rot_uv.y));
     rays = smoothstep(0., .8, rays);
     c += mix(.15, .25, gnoise(u_time)) * rays;

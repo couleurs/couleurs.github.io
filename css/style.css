@@ -44,20 +44,15 @@ h1 {
   font-family: 'Free Serif Italic', Arial, sans-serif;
   font-size: 100;    
   letter-spacing: 5px;
-  /* margin-top: 15%;       */
   margin-bottom: 2rem;      
 }
 
 h3 {
   font-family: 'Free Serif Italic', Arial, sans-serif;
-  font-size: 1.5rem;
-  /* margin-bottom: 2rem;       */
-  /* text-transform: uppercase; */
-  /* letter-spacing: 20px; */
+  font-size: 1.5rem;  
 }
 
-.col-content {
-  /* padding-top: 10px; */
+.col-content {  
   padding-left: 10px;
 }
 
@@ -76,11 +71,6 @@ a {
 
 a:hover {
   color: white;
-}
-
-#mc_embed_signup form {
-  padding-top: 0px;
-  padding-left: 0px;
 }
 
 .footer {
@@ -102,4 +92,53 @@ a:hover {
 
 a.icon {
   text-decoration: none;
+}
+
+
+/* Mailchimp overrides */
+
+#mc_embed_signup {
+  font-family: 'Free Serif', Arial, sans-serif;
+}
+
+#mc_embed_signup form {
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+#mc_embed_signup #mce-success-response {
+  color: white;
+}
+
+#mc_embed_signup div.response {
+  padding: 0;
+  font-weight: normal;
+  margin: .5rem 0;
+}
+
+#mc_embed_signup div#mce-responses {
+  padding: 0;
+  margin: 0;
+}
+
+#mc_embed_signup .mc-field-group {
+  margin-bottom: .5rem;
+  padding-bottom: 0;
+}
+
+#mc_embed_signup .mc-field-group label {
+  margin-bottom: .5rem;
+}
+
+#mc_embed_signup .mc-field-group input {
+  line-height: 18px;
+  width: 80%;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+  margin: .5rem 0 .5rem 0;
+}
+
+#mc_embed_signup #mce-success-response {
+  margin-top: 0;
 }
