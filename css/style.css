@@ -44,7 +44,7 @@ h1 {
   font-family: 'Free Serif Italic', Arial, sans-serif;
   font-size: 100;    
   letter-spacing: 5px;
-  margin-bottom: 2rem;      
+  margin-bottom: 2rem;
 }
 
 h3 {
@@ -83,7 +83,7 @@ a:hover {
   margin-right: 6px;
   width: 26px;
   height: 26px;
-  fill: #aaa;
+  fill:rgb(220, 220, 220);
 }
 
 .sm-icon:hover {
@@ -94,6 +94,10 @@ a.icon {
   text-decoration: none;
 }
 
+.contact {
+  margin-top: .5rem;
+  font-size: .95rem;
+}
 
 /* Mailchimp overrides */
 
@@ -121,18 +125,14 @@ a.icon {
   margin: 0;
 }
 
-#mc_embed_signup .mc-field-group {
-  margin-bottom: .5rem;
+#mc_embed_signup .mc-field-group {  
   padding-bottom: 0;
-}
-
-#mc_embed_signup .mc-field-group label {
-  margin-bottom: .5rem;
 }
 
 #mc_embed_signup .mc-field-group input {
   line-height: 18px;
   width: 80%;
+  margin-top: 10px;
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
