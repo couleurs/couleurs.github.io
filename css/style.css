@@ -38,6 +38,7 @@ canvas {
   position: relative;
   top: 50%;
   transform: translateY(-68%);
+  max-width: 1280px;
 }
 
 h1 {
@@ -131,7 +132,7 @@ a.icon {
 
 #mc_embed_signup .mc-field-group input {
   line-height: 18px;
-  width: 80%;
+  width: 75%;
   margin-top: 10px;
 }
 
