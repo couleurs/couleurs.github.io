@@ -75,16 +75,17 @@ a:hover {
 }
 
 .footer {
-  margin-top: 2rem;  
-  text-align: center;
+  margin-top: 1rem; 
+  /* margin-left: 24px;    */
+  /* text-align: center; */
 }
 
 .sm-icon {
   margin-left: 6px;
   margin-right: 6px;
-  width: 26px;
-  height: 26px;
-  fill:rgb(220, 220, 220);
+  width: 24px;
+  height: 24px;
+  fill:rgb(200, 200, 200);
 }
 
 .sm-icon:hover {
