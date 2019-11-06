@@ -57,11 +57,11 @@ html, body {
 }
 
 .left {
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .middle {
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 h1 {
@@ -78,6 +78,10 @@ h3 {
 
 .col-content {  
   padding-left: 10px;
+}
+
+.intention {
+  max-width: 610px;
 }
 
 .release {
@@ -143,7 +147,7 @@ a.icon {
 #mc_embed_signup div.response {
   padding: 0;
   font-weight: normal;
-  margin: .5rem 0;
+  margin-top: 0;
 }
 
 #mc_embed_signup div#mce-responses {
