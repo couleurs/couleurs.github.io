@@ -53,7 +53,7 @@ html, body {
   color: white;  
   position: relative;  
   max-width: 1280px;
-  margin-top: -160px
+  margin-top: -170px
 }
 
 .left {
@@ -80,6 +80,9 @@ h3 {
   padding-left: 10px;
 }
 
+.release {
+  max-width: 235px;
+}
 
 .release-year {
   font-family: 'Free Serif Italic', Arial, sans-serif;
@@ -155,6 +158,7 @@ a.icon {
 #mc_embed_signup .mc-field-group input {
   line-height: 18px;
   width: 100%;
+  max-width: 270px;
   margin-top: 10px;
 }
 
