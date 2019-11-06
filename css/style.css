@@ -37,7 +37,7 @@ canvas {
   color: white;  
   position: relative;
   top: 50%;
-  transform: translateY(-68%);
+  transform: translateY(-70%);
   max-width: 1280px;
 }
 
@@ -59,6 +59,7 @@ h3 {
 
 li {
   list-style-type: none;
+  /* font-size: 1.2rem; */
 }
 
 .release {
@@ -131,7 +132,7 @@ a.icon {
 
 #mc_embed_signup .mc-field-group input {
   line-height: 18px;
-  width: 75%;
+  width: 100%;
   margin-top: 10px;
 }
 
