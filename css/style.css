@@ -22,6 +22,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-size: 1.1rem;
+  font-size: 17px;
 }
 
 canvas {  
@@ -59,23 +60,24 @@ html, body {
 }
 
 .left {
-  padding-bottom: 1.5rem;
+  padding-bottom: 50px;
 }
 
 .middle {
-  padding-bottom: 1.5rem;
+  padding-bottom: 50px;
 }
 
 h1 {
   font-family: 'Free Serif Italic', Arial, sans-serif;
-  font-size: 100;    
+  font-size: 100px;    
   letter-spacing: 5px;
-  margin-bottom: 2rem;
+  margin-bottom: 50px;
 }
 
 h3 {
   font-family: 'Free Serif Italic', Arial, sans-serif;
-  font-size: 1.5rem;  
+  /* font-size: 1.5rem;   */
+  font-size: 24px;  
 }
 
 .col-content {  
