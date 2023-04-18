@@ -20,9 +20,8 @@ body {
   margin: 0;
   font-family: 'Free Serif', Arial, sans-serif;  
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  font-size: 1.1rem;
-  font-size: 17px;
+  -webkit-font-smoothing: antialiased;  
+  font-size: 18px;
 }
 
 canvas {  
@@ -40,31 +39,31 @@ html, body {
 .main {
   height: 100%;
   width: 100%;
-  display: table;
+  display: table;  
 }
 
 .wrapper {
   display: table-cell;
   height: 100%;
-  vertical-align: middle;
+  vertical-align: middle;  
 }
 
 .container {
   z-index: 0;
-  color: white;  
-  position: relative;  
-  max-width: 1280px;
-  margin-top: -180px;
-  padding-left: 30px;
-  /* padding-right: 30px; */
+  color: white;    
+  max-width: 1280px;  
 }
 
 .left {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .middle {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.right {
+  margin-bottom: 50px;
 }
 
 h1 {
@@ -77,7 +76,11 @@ h1 {
 h3 {
   font-family: 'Free Serif Italic', Arial, sans-serif;
   /* font-size: 1.5rem;   */
-  font-size: 24px;  
+  font-size: 25px;  
+}
+
+.italic {
+  font-family: 'Free Serif Italic', Arial, sans-serif;
 }
 
 .col-content {  
@@ -109,7 +112,8 @@ a:hover {
 }
 
 .footer {
-  /* margin-top: 2rem;    */
+  margin-top: 100px;
+  text-align: center;
 }
 
 .sm-icon {
