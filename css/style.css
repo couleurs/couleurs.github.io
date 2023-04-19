@@ -24,22 +24,6 @@ body {
   background-color: #1A272A;
 }
 
-@media only screen and (max-device-width: 480px) {
-  /* Bigger fonts on mobile */
-
-  body {
-    font-size: 24px;
-  }
-
-  h1 {    
-    font-size: 130px; 
-  }
-
-  h3 {
-    font-size: 33px;
-  }
-}
-
 canvas {  
   display: block;
   position: absolute;
@@ -123,13 +107,6 @@ h3 {
   padding-top: 3px;
 }
 
-@media only screen and (max-device-width: 480px) {
-  .release-year {
-    font-size: 21px;
-    padding-top: 4px;
-  }
-}
-
 a {
   text-decoration: underline;
   color: white;
@@ -208,4 +185,24 @@ a.icon {
 
 #mc_embed_signup #mce-success-response {
   margin-top: 0;
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* 33.3% bigger fonts on mobile */
+  body {
+    font-size: 24px;
+  }
+
+  h1 {    
+    font-size: 130px; 
+  }
+
+  h3 {
+    font-size: 33px;
+  }
+
+  .release-year {
+    font-size: 21px;
+    padding-top: 4px;
+  }
 }
