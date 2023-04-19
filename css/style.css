@@ -16,12 +16,12 @@
   url("fonts/FreeSerifItalic.svg#filename") format("svg");
 }
 
-body {
-  margin: 0;
+body {  
   font-family: 'Free Serif', Arial, sans-serif;  
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;  
   font-size: 18px;
+  background-color: #1A272A;
 }
 
 canvas {  
@@ -93,6 +93,10 @@ h3 {
   max-width: 610px;
 }
 
+.bio {
+  padding-right: 10px;
+}
+
 .release {
   max-width: 235px;
 }
@@ -114,7 +118,7 @@ a:hover {
 }
 
 .footer {
-  margin-top: 100px;
+  margin-top: 80px;  
   text-align: center;
 }
 
