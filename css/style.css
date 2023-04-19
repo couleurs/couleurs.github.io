@@ -24,6 +24,22 @@ body {
   background-color: #1A272A;
 }
 
+@media only screen and (max-device-width: 480px) {
+  /* Bigger fonts on mobile */
+
+  body {
+    font-size: 24px;
+  }
+
+  h1 {    
+    font-size: 130px; 
+  }
+
+  h3 {
+    font-size: 33px;
+  }
+}
+
 canvas {  
   display: block;
   position: absolute;
@@ -76,8 +92,7 @@ h1 {
 }
 
 h3 {
-  font-family: 'Free Serif Italic', Arial, sans-serif;
-  /* font-size: 1.5rem;   */
+  font-family: 'Free Serif Italic', Arial, sans-serif;  
   font-size: 25px;  
 }
 
