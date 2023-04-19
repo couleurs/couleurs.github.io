@@ -126,6 +126,7 @@ h3 {
 @media only screen and (max-device-width: 480px) {
   .release-year {
     font-size: 21px;
+    padding-top: 4px;
   }
 }
 
