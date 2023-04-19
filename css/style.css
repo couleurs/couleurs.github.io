@@ -38,6 +38,10 @@ body {
   h3 {
     font-size: 33px;
   }
+
+  .release-year {
+    font-size: 21px;
+  }
 }
 
 canvas {  
@@ -118,9 +122,9 @@ h3 {
 
 .release-year {
   font-family: 'Free Serif Italic', Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   color: rgba(255, 255, 255, .7);
-  padding-top: 2px;
+  padding-top: 3px;
 }
 
 a {
